@@ -56,6 +56,12 @@
     cursor: pointer;
   }
 
+@media screen and (max-width: 622px) {
+    a.cta{
+      display: none;
+    }
+  }
+
   /*Accueil*/
   h1.DS{
     font-family: "Montserrat", sans-serif;

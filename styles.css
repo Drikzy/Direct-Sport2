@@ -1,4 +1,4 @@
-  *{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -56,9 +56,14 @@
     cursor: pointer;
   }
 
-@media screen and (max-width: 622px) {
+  @media screen and (max-width: 622px) {
     a.cta{
       display: none;
+    }
+  }
+  @media screen and (max-width: 505px) {
+    li.nl{
+      font-size: 15px;
     }
   }
 
@@ -74,6 +79,7 @@
   h3{
     font-family: "Montserrat", sans-serif;
     color: antiquewhite;
+    font-size: 20px;
   }
 
   div.tab{
@@ -106,6 +112,41 @@
     padding: 5%;
     display: flex;
   }
+
+  @media screen and (max-width: 1460px) {
+    div.texte{
+      padding-right: 30%;
+    }
+  }
+  @media screen and (max-width: 1320px) {
+    div.texte{
+      padding-right: 20%;
+    }
+  }
+  @media screen and (max-width: 1120px) {
+    div.texte{
+      padding-right: 10%;
+      padding-top: 5%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    h1.DS{
+      font-size: 65px;
+    }
+    h3{
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    div.container{
+      display: block;
+    }
+    div.texte{
+      padding-top: 20%;
+      padding-bottom: 15%;
+    }
+  }
+
   @keyframes color{
     0%{
       background-position: 0 50%;
